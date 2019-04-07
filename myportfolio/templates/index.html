@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="site-hero" style="background-image: url(/static/images/sai-kiran-anagani-61187-unsplash.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+    <div class="container">
+    <div class="row intro-text align-items-center justify-content-center">
+        <div class="col-md-10 text-center">
+        <h1 class="site-heading site-animate">Hello, I'm <strong>Anum Asif</strong></h1>
+        <p class="lead site-subheading mb-4 site-animate">A Software Developer</p>
+        <p><a href="#section-about" class="smoothscroll btn btn-primary px-4 py-3">More On Me</a></p>
+        </div>
+    </div>
+    </div>
+</section> 
+<section class="site-section" id="section-about">
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+                <img src="/static/images/profile-pic.jpg" alt="Image placeholder" class="img-fluid">
+            </div>
+            <div class="col-lg-5 pl-lg-5">
+                <div class="section-heading">
+                <h2>About <strong>Me</strong></h2>
+                </div>
+                <p class="lead"><em>Programming</em> is my passion. Writing a code and seeing it solving a real life problem is the best feelings in the world. Apart from coding, i love outdoor activities like swimming, going for a walk or playing badminton. I also love painting landscapes using acrylic medium.</p>
+                <p>
+                <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+                <a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>  
+<section class="site-section" id="section-about">
+    <div class="container">
+        <div class="row mb-5 align-items-center" >
+            <div class="col-lg-3 pr-lg-2 mb-2 mb-lg-0">
+                <img src="/static/images/html-5.png" alt="Image placeholder" class="img-fluid">
+            </div>
+            <div class="col-lg-3 pr-lg-2 mb-2 mb-lg-0">
+                <img src="/static/images/css-3.png" alt="Image placeholder" class="img-fluid">
+            </div>
+            <div class="col-lg-3 pr-lg-2 mb-2 mb-lg-0">
+                <img src="/static/images/js.png" alt="Image placeholder" class="img-fluid">
+            </div>    
+            <div class="col-lg-3 pr-lg-2 mb-2 mb-lg-0">
+                <img src="/static/images/angular.png" alt="Image placeholder" class="img-fluid">
+            </div>
+        </div>
+    </div>    
+</section>    
+<footer class="site-footer" id='section-contact'>
+    <div class="container">
+    <div class="row mb-3">
+        <div class="col-md-12 text-center">
+        <h1>Contacts</h1> 
+        <hr>   
+        <p>
+            <a href="#" class="social-item"><span><img src="/static/images/linkedin-button.png" alt=""></span></a>
+            <a href="https://github.com/AnumAsif" class="social-item"><span><img src="/static/images/github-logo.png" alt=""></span></a>
+            <a href="#" class="social-item"><span><img src="/static/images/facebook-logo-button.png" alt=""></span></a>
+        </p>
+        <p>
+            <a class="text-center" href="mailto:anum@cockar.com">Email: anum@cockar.com</a>
+        </p>
+        </div>
+    </div>
+    <div class="row">
+        <p class="col-12 text-center">
+        Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved
+        </p>
+    </div>
+    </div>
+</footer>
+{% endblock  %}
