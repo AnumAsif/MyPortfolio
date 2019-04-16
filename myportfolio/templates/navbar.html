@@ -1,18 +1,24 @@
-<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
-
+{% load bootstrap4 %}
+<nav class="navbar navbar-expand-lg site-navbar navbar-dark navbar-inverse navbar-fixed-top" id="pb-navbar">
+{% comment %} site-navbar navbar-light {% endcomment %}
     <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#section-home">AnumAsif</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
+    </div>
 
-      <a class="navbar-brand" href="index.html">AnumAsif</a>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-        <ul class="navbar-nav">
+      
+
+      
+      <div class="collapse navbar-collapse justify-content-md-center" id="myNavbar">
+        <ul class="nav navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#section-about">AboutMe</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section-services">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section-portfolio">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section-resume">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-project">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-contact">Contacts</a></li>
         </ul>
       </div>
     </div>

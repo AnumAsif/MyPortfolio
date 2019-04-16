@@ -3,8 +3,11 @@ body {
     color: #798a9a;
     line-height: 1.7;
     font-size: 16px;
-    font-weight: 300; 
+    font-weight: 300;
+    /* background-color: #E4F5E7  ;  */
+    
 }
+
 h1, h2, h3, h4, h5 {
     color: #2c3e50;
     font-weight: 200; }
@@ -16,6 +19,7 @@ a:hover, a:focus, a:active {
     color: #4ebe2a;
     text-decoration: none; 
 }
+
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
 padding: 15px 20px !important; }
@@ -33,8 +37,8 @@ z-index: 200;
 background: #fff; }
 .site-navbar .navbar-brand {
     display: inline-block;
-    border: 2px solid #fff;
-    padding: 5px 20px;
+    /* border: 2px solid #fff; */
+    padding: 0px 20px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .2em; }
@@ -65,7 +69,7 @@ background: #fff; }
         color: rgba(0, 0, 0, 0.7) !important; } }
 .site-navbar .navbar-nav.active > a {
     color: #57d131 !important; }
-.site-navbar.scrolled {
+/* .site-navbar.scrolled {
     background: #fff;
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
@@ -109,9 +113,20 @@ background: #fff; }
     .site-navbar.scrolled .navbar-nav > li > a.active {
         color: #57d131 !important; }
     .site-navbar.scrolled .navbar-nav > li.active > a {
-    color: #57d131 !important; }
+    color: #57d131 !important; }  */
 
-
+#pb-navbar{
+    position:fixed;
+    background-color:rgb(46, 46, 46);
+    opacity:0.8;
+    
+}
+#pb-navbar .container a{
+    color:#57d131 ;
+}
+#navbars ul li a{
+    color:#57d131 ;
+}
 .site-hero {
 background-color: #ccc;
 background-size: cover;
@@ -131,18 +146,22 @@ overflow: hidden; }
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5); }
-.site-hero h1 {
+.site-hero h1, .skills h1 {
     font-weight: 200;
     margin-bottom: 20px;
     display: block; }
-    .site-hero h1 strong {
+    .site-hero h1 strong, .skills h1 strong {
     font-weight: 800; }
     @media (min-width: 768px) {
-    .site-hero h1 {
+    .site-hero h1, .skills h1{
         font-size: 70px; } }
 .site-hero h1, .site-hero .lead {
     font-weight: 200;
+    
     color: #fff; }
+.skills h1{
+    font-weight: 200;
+}    
 .site-hero .lead {
     line-height: 2; }
 .site-hero .site-subheading {
@@ -151,7 +170,9 @@ overflow: hidden; }
     color: rgba(255, 255, 255, 0.5); 
 }
 .site-section {
-    padding: 5em 0; }
+    padding: 5em 0; 
+
+}
   
 .section-heading {
     margin-bottom: 30px;
@@ -187,7 +208,7 @@ overflow: hidden; }
 }
 .site-footer p:last-child {
     margin-bottom: 0; }
-.site-footer .social-item {
+#section-contact .social-item {
     display: inline-block;
     width: 60px;
     height: 60px;
@@ -198,14 +219,74 @@ overflow: hidden; }
     margin: 0 10px;
     /* overflow:hidden;  */
 }
-/* .site-footer .social-item > span {
+.site-footer .social-item > span {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
- } */
+ }
  .social-item img{
      width:100%;
      height:100%;
  }
+ .skill{
+     text-align:center;
+ }
+ .skill img{
+     width:60%;
+     height:60%;
+     /* overflow:hidden; */
+ }   
+ /* #-skills{
+    top:50%;
+    left:50%;
+}  */
+.maindiv{
+    height:100vh;
+    padding-top:15%;
+    
+   
+}
+@media (max-width: 991.98px) {
+    .maindiv{
+        padding-top:30%;
+        height:auto;
+        margin-left:30px;
+        margin-right:30px;
+        clear:both;
+    }
+   
+}        
+@media only screen and (max-width: 768px) {
+    #pb-navbar{
+        position:relative;
+        
+    }    
+    .navbar-toggler{
+        display:block;
+        float:right;
+        position:static;
+    }
+    #myNavbar{
+        position: static;
+        margin-top:
+    }
+    .nav{
+        margin-top:60px;
+    }
+    .nav-item {
+      width:100%;
+    
+      float:none;
+      margin-top:-50px;
+      clear:both;
+  
+    }
+  
+    /* .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .nav-collapse>li { float: none; }  */
+  }  
+    
     

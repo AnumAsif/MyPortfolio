@@ -38,8 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap3',
+    'bootstrap4',
+    'tinymce',
+    'pyuploadcare.dj',
     'myportfolio.apps.MyportfolioConfig',
 ]
+UPLOADCARE = {
+    'pub_key': '583d4f1e756c2bd76093',
+    'secret': '0b2831977f411fd0322b',
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
