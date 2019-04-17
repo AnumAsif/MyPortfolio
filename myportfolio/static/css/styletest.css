@@ -148,3 +148,35 @@ a:hover, a:focus, a:active {
     height:100vh;
     padding-top:15%;
 }
+/*  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+#myNavbar{
+    /* position: static; */
+    margin-top:15vh;
+    background-color: grey;
+    color:white;
+    clear:both;
+    /* color:grey; */
+
+}
+
+.nav-item{
+   margin:-10px;
+   padding-top:-5px;
+    /* margin-top:20px; */
+}
+.nav-item:active{
+    background-color: transparent;
+}
+.nav-item a{
+   
+}
+.nav{
+    margin-top:60px;
+}
+/*
+.nav-item {
+  width:100%;
+
+  float:none;
+  margin-top:-50px;
+  clear:both; */
